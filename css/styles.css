@@ -1,0 +1,248 @@
+body{
+	background-color:#E0E0E0;
+	min-height: 100vh;
+	
+}   
+
+
+.page-footer{
+	background-color:#212529;
+	color:white;
+
+}
+
+.container-fluid{
+	min-height:100vh;
+	}
+	
+
+.btn-link:hover {
+	text-decoration:none;
+	
+}
+
+button.okazButton{
+		  background:none;
+  border:none;
+
+  
+}
+
+button.admin{
+	background-color:gray;
+	border:none;
+	padding:none;
+}
+
+
+
+
+/*                                               Nadpisane klasy bootstrapa*/
+.navbar{
+	font-weight:700;
+}
+
+}
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+}
+
+
+.btn{ 
+	border-color: #FF8010;
+	background-color: #FF8010;
+	color:white;
+	font-weight:700;
+}
+
+/*                                               Menu*/
+#logo_strony{
+	width:30px;
+	height:30px;
+}
+
+.menuIcon{
+	filter: invert(1);
+	height:15px;
+	margin-top:5px;
+	padding:0px;
+	top:0;
+}
+#searchicon{
+	height:20px;
+	margin-top:3px;
+}
+
+#menu_logowanie_rejestracja_user_info:hover{
+	background-color:gray;
+}
+
+#menu_logowanie_rejestracja_user_info{
+background-color:black;
+margin-top:0px;
+border-color:black;
+padding-right:15px;
+}
+#menu_logowanie_rejestracja_user_info img{
+	margin-top:3px;
+}
+
+
+
+/*                                               Pasek informacyjny */
+#info_pod_menu{
+	background-color:white;
+	height:50px;
+	width:100%;
+	font-size:20px;
+	display: flex;
+  align-items: center; 
+	padding-left:10px;
+}
+
+#kreska_pod_info{
+	background-color:#C0C0C0;
+	height:1px;
+	width:100%;
+}
+#odstep_wyszukiwanego_wynik{
+	padding-left:10px;
+}
+
+a#wyczysc_filtr{
+	padding-left:10px;
+	font-size:12px;
+	color:gray;
+}
+a#wyczysc_filtr:hover{
+	color:#FF8010;
+}
+
+/*                                               Widok oferty*/
+
+div.oferta{
+	border: 2px solid white;
+	background-color:white;
+  border-radius: 5px 5px;
+}
+
+.pasek_ocen{
+	height:40px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+
+}
+
+.ikonaOcena{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+}
+
+.oferta_zdjecie{
+	height: 300px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+img.zdjecie_oferty{
+	margin-top:0;
+	width:auto;
+	max-width:100%;
+	max-height:300px;;
+}
+
+@media (max-width: 580px) {
+.oferta_zdjecie{
+	height: 350px;
+	text-align:center;
+
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+img.zdjecie_oferty{
+	margin-top:0;
+	width:auto;
+	max-width:100%;
+	max-height:350px;;
+}
+}
+
+.oferta_nazwa{
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height:25px;
+	font-size:15px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.oferta_cena{
+	padding-left:5px;
+	padding-right:5px;
+  display: flex;
+  align-items: center; 
+}
+
+.nowaCena{
+	font-size:18px;
+	color:#FF8010;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.staraCena{
+	font-size:17px;
+	margin-left:10px;
+	color:gray;
+}
+
+.ileRabatu{
+	margin-left:5px;
+	font-size:18px;
+	font-weight:400;
+}
+
+.oferta_opis{
+	padding-left:5px;
+	padding-right:5px;
+	font-size:13px;
+	height:42px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.oferta_przycisk{
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.ikona_idz_do_oferty{
+	filter: invert(1);
+	height:20px;
+	margin-top:3px;
+}
+
+.oferta_padding{
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:10px;
+}
+
+/*                                               Widok oferty*/
+
+
+
+
+
